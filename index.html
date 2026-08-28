@@ -5,47 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Blog - Homem-Aranha</title>
     <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #050505;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
             padding: 20px;
+            line-height: 1.7;
         }
         .container {
             max-width: 800px;
             margin: 0 auto;
         }
         header {
-            background-color: red;
-            color: blue;
+            background: linear-gradient(135deg, #cc0000, #990000);
+            color: #ffffff;
             text-align: center;
-            padding: 16px;
-            border-radius: 8px 8px 0 0;
+            padding: 20px;
+            border-radius: 10px 10px 0 0;
+            box-shadow: 0 2px 8px rgba(204, 0, 0, 0.3);
+        }
+        header h1 {
+            font-size: 1.6rem;
         }
         main {
-            background-color: black;
-            color: white;
-            padding: 20px;
-            border: 2px solid red;
+            background-color: #111111;
+            padding: 25px;
+            border: 3px solid #cc0000;
             border-top: none;
-            border-radius: 0 0 8px 8px;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         }
         .imagem {
             display: block;
             max-width: 100%;
             height: auto;
             margin: 0 auto 25px;
-            border-radius: 8px;
-            border: 2px solid blue;
+            border-radius: 10px;
+            border: 3px solid #0033cc;
+            box-shadow: 0 0 15px rgba(0, 51, 204, 0.4);
         }
         h2 {
-            color: blue;
-            border-bottom: 1px solid red;
-            padding-bottom: 5px;
+            color: #0066ff;
+            border-bottom: 2px solid #cc0000;
+            padding-bottom: 8px;
+            margin: 30px 0 15px;
+            font-size: 1.3rem;
         }
         p {
-            line-height: 1.6;
+            margin-bottom: 18px;
+            text-align: justify;
+        }
+        strong {
+            color: #ff6666;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            color: #888888;
+            font-size: 0.9rem;
         }
     </style>
 </head>
@@ -55,7 +78,6 @@
             <h1>Seja bem-vindo ao universo do Homem-Aranha ✨</h1>
         </header>
         <main>
-            <!-- IMAGEM JÁ FUNCIONANDO - NÃO PRECISA BAIXAR NADA -->
             <img 
                 src="https://www.kindpng.com/picc/m/307-3078808_homem-aranha-png-transparent-png.png" 
                 alt="Homem-Aranha" 
@@ -72,6 +94,11 @@
             
             <p>O Homem-Aranha possui uma das galerias de vilões mais icônicas dos quadrinhos. Seus três principais arqui-inimigos são o <strong>Duende Verde</strong> (Norman Osborn), o <strong>Doutor Octopus</strong> (Otto Octavius) e o <strong>Venom</strong> (Eddie Brock), que desafiam Peter Parker tanto com força física quanto com impactos emocionais profundos.</p>
         </main>
+
+        <footer>
+            🕸️ Com grandes poderes vêm grandes responsabilidades! 🕸️
+        </footer>
     </div>
 </body>
 </html>
+     
