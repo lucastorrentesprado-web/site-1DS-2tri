@@ -1,77 +1,138 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Blog - Homem-Aranha</title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        header {
-            background-color: red;
-            color: blue;
-            text-align: center;
-            padding: 16px;
-            border-radius: 8px 8px 0 0;
-        }
-        main {
-            background-color: black;
-            color: white;
-            padding: 20px;
-            border: 2px solid red;
-            border-top: none;
-            border-radius: 0 0 8px 8px;
-        }
-        .imagem {
-            display: block;
-            max-width: 100%;
-            height: auto;
-            margin: 0 auto 25px;
-            border-radius: 8px;
-            border: 2px solid blue;
-        }
-        h2 {
-            color: blue;
-            border-bottom: 1px solid red;
-            padding-bottom: 5px;
-        }
-        p {
-            line-height: 1.6;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universo Homem-Aranha</title>
+  <style>
+   * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+   }
+    body {
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+      padding-bottom: 60px;
+    }
+    header {
+      background-color: #0076ff;
+      color: #ffffff;
+      text-align: center;
+      padding: 30px 20px;
+      border-bottom: 3px solid #0056b3;
+    }
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+    }
+    .container {
+      max-width: 760px;
+      margin: 30px auto;
+      padding: 0 15px;
+    }
+    .post {
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      margin-bottom: 30px;
+    }
+    .post h2, .post h3 {
+      color: #111;
+      margin-bottom: 12px;
+      font-size: 1.6rem;
+    }
+    .post p {
+      font-size: 1.05rem;
+      color: #444;
+      margin-bottom: 15px;
+    }
+    .post img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin: 15px 0;
+    }
+    .btn-curtir {
+      background-color: #f0f2f5;
+      border: none;
+      color: #555;
+      padding: 8px 16px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      border-radius: 20px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .btn-curtir:hover {
+      background-color: #e4e6eb;
+    }
+    .btn-curtir.ativo {
+      background-color: #e6f0ff;
+      color: #0076ff;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Seja bem-vindo ao universo do Homem-Aranha ✨</h1>
-        </header>
-        <main>
-            <!-- IMAGEM JÁ FUNCIONANDO - NÃO PRECISA BAIXAR NADA -->
-            <img 
-                src="https://www.kindpng.com/picc/m/307-3078808_homem-aranha-png-transparent-png.png" 
-                alt="Homem-Aranha" 
-                class="imagem"
-            >
+  <header>
+    <h1>Universo Homem-Aranha</h1>
+    <p>Autor: lucas gostosao</p>
+  </header>
 
-            <p>Peter Parker é um jovem órfão criado pelos tios Ben e May em Nova York. Após ser picado por uma aranha radioativa em uma feira científica, ele ganhou superpoderes. Após a morte trágica do Tio Ben por sua própria omissão, Peter aprendeu que "com grandes poderes vem grandes responsabilidades", tornando-se o herói.</p>
-            
-            <p><strong>Origem e Primeiros Anos:</strong> Criado por Stan Lee e Steve Ditko, estreou em <em>Amazing Fantasy #15</em> em agosto de 1962. Estudante tímido do Queens, lidava com bullying escolar, problemas financeiros e contas da Tia May. Trabalhou como fotógrafo freelancer para o Clarim Diário (Daily Bugle), vendendo fotos de si mesmo como Homem-Aranha para o irritado J. Jonah Jameson.</p>
-            
-            <p><strong>Poderes e Habilidades:</strong> Força, agilidade e reflexos sobre-humanos. "Sentido Aranha", um aviso extrassensorial que o alerta contra ameaças iminentes. Lançadores de teia artificiais criados por sua própria genialidade científica.</p>
-            
-            <h2>Entre na teia e explore o multiverso de aventuras! 🕷️</h2>
-            
-            <p>O Homem-Aranha possui uma das galerias de vilões mais icônicas dos quadrinhos. Seus três principais arqui-inimigos são o <strong>Duende Verde</strong> (Norman Osborn), o <strong>Doutor Octopus</strong> (Otto Octavius) e o <strong>Venom</strong> (Eddie Brock), que desafiam Peter Parker tanto com força física quanto com impactos emocionais profundos.</p>
-        </main>
-    </div>
+  <div class="container">
+    
+    <article class="post">
+      <h2>Post 1: Origem e Primeiros Anos</h2>
+      <p>Peter Parker é um jovem órfão criado pelos tios Ben e May em Nova York. Após ser picado por uma aranha radioativa em uma feira científica, ele ganhou superpoderes. Após a morte trágica do Tio Ben por sua própria omissão, Peter aprendeu que "com grandes poderes vem grandes responsabilidades", tornando-se o herói.</p>
+      <p>Criado por Stan Lee e Steve Ditko, estreou em Amazing Fantasy #15 em agosto de 1962. Estudante tímido do Queens, lidava com bullying escolar, problemas financeiros e contas da Tia May. Trabalhou como fotógrafo freelancer para o Clarim Diário (Daily Bugle), vendendo fotos de si mesmo como Homem-Aranha para o irritado J. Jonah Jameson.</p>
+      <p><strong>Poderes e Habilidades:</strong> Força, agilidade e reflexos sobre-humanos. "Sentido Aranha", um aviso extrassensorial que o alerta contra ameaças iminentes. Lançadores de teia artificiais criados por sua própria genialidade científica.</p>
+      <img src="image copy.png" alt="Homem-Aranha em Nova York">
+      <button class="btn-curtir" onclick="gerenciarCurtida(this)">
+        Curtir (<span class="num-curtidas">0</span>)
+      </button>
+    </article>
+
+    <article class="post">
+      <h2>Post 2: Os Maiores Arqui-Inimigos</h2>
+      <p>O Homem-Aranha possui uma das galerias de vilões mais icônicas dos quadrinhos. Seus três principais arqui-inimigos são o <strong>Duende Verde</strong> (Norman Osborn), o <strong>Doutor Octopus</strong> (Otto Octavius) e o <strong>Venom</strong> (Eddie Brock), que desafiam Peter Parker tanto com força física quanto com impactos emocionais profundos.</p>
+      <p>Outros vilões notáveis incluem o Sexteto Sinistro — uma equipe de supervilões formada para derrotar o Teioso —, além do Lagarto, Rino, Electro e o Rei do Crime, tornando a vida de Peter uma constante luta pela sobrevivência de Nova York.</p>
+      <img src="image.png" alt="Homem-Aranha em Nova York">
+      <button class="btn-curtir" onclick="gerenciarCurtida(this)">
+        Curtir (<span class="num-curtidas">0</span>)
+      </button>
+    </article>
+
+    <article class="post">
+      <h3>Post 3: O Multiverso e Suas Versões</h3>
+      <p>A constante evolução das histórias do Homem-Aranha trouxe o conceito do <strong>Aranhaverso</strong>, revelando que existem incontáveis versões do herói em diferentes dimensões paralelas.</p>
+      <p>Dentre as versões mais conhecidas estão <strong>Miles Morales</strong>, um jovem do Brooklyn que assume o manto do herói com habilidades uniques de invisibilidade e bioeletricidade; <strong>Gwen Stacy (Spider-Gwen)</strong>; e o <strong>Homem-Aranha 2099 (Miguel O'Hara)</strong>. Essa diversidade prova a mensagem central do herói: qualquer um pode usar a máscara e fazer a diferença.</p>
+      <img src="image copy.png" alt="Aranhaverso">
+      <button class="btn-curtir" onclick="gerenciarCurtida(this)">
+        Curtir (<span class="num-curtidas">0</span>)
+      </button>
+    </article>
+
+  </div>
+
+  <script>
+    function gerenciarCurtida(botao) {
+      const contador = botao.querySelector('.num-curtidas');
+      let total = parseInt(contador.textContent);
+
+      if (botao.classList.contains('ativo')) {
+        botao.classList.remove('ativo');
+        contador.textContent = total - 1;
+      } else {
+        botao.classList.add('ativo');
+        contador.textContent = total + 1;
+      }
+    }
+  </script>
 </body>
 </html>
